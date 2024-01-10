@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Borough of Morton::Gallery</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="morton.css" rel="stylesheet">
+		<style>
+			@media (min-width: 1024px) {
+				.big_pic	{	background-image: url("images/morton_sign.jpg");}
+				main 		{	top: 830px;}
+			}
+			.gallery	{	display: flex;
+							flex-wrap: wrap;
+							justify-content: space-around;
+							width: 70%;
+							margin: auto;
+			}
+			section 	figure	{	position: relative;
+									z-index: 1;
+									opacity: .75;
+									background-color: #ffffff;
+									color: rgba(0,0,0,0);
+									margin: 1em;
+									font-size: .5em;
+									text-align: center;
+									transition: all ease-out 1s;
+			}
+			section 	figure:hover	{	opacity: 1;
+											z-index: 999;
+											box-shadow: 3px 3px 3px #333333;
+											color: rgba(0,0,0,1);
+											transform: scale(3);
+			}
+			figcaption 	{padding-top: .5em;}
+		</style>		
+	</head>
+	
+	<body>
+		<header>
+			<h2>Borough of</h2>
+		  	<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h1>Morton</h1>
+		  	<ul>
+				<li>
+					<a href="https://www.facebook.com/MortonPA/" target="_blank"><img src="images/facebook_white.png" alt="facebook link"></a>
+				</li>
+				<li>
+					<a href="https://twitter.com/MortonPolice" target="_blank"><img src="images/twitter_white.png" alt="twitter link"></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/channel/UCYr7v2f6z_uclVSP-fToMIg" target="_blank"><img src="images/youtube_white.png" alt="facebook link"></a>
+				</li>
+			</ul>
+		</header>
+		<div class="big_pic" id="backdrop">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="events/calendar.html">Calendar</a></li>
+					<li><a href="forms.html">Applications&nbsp;&amp;&nbsp;Forms</a></li>
+					<li><a href="meetings.html">Meetings</a></li>
+					<li>Contact&nbsp;Us
+						<ul>
+							<li><a href="contacts/contact_admin.html">Administrators</a></li>
+							<li><a href="contacts/contact_govern.html">Government Office</a></li>
+							<li><a href="contacts/contact_emergency.html">Police&nbsp;&amp;&nbsp;Fire</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<figure class="hide_mobile_hero">
+				<img class="mobilehero" src="images/morton_sign.jpg" alt="morton school house 1910">
+			</figure>
+		</div>
+		<main>
+			<div id="wrapper">
+				<h1>Gallery</h1>
+				<br>
+				<section>
+					<div class="gallery">
+						<figure>
+							<a href="images/station_mobile.JPG" target="_blank"><img src="images/station_mobile.JPG" width="140" height="100" alt="Morton Train Station"></a>
+	   						<figcaption>Historic Morton Station</figcaption>
+						</figure>
+						<figure>
+							<a href="images/morton_school_1910.jpg" target="_blank"><img src="images/morton_school_1910.jpg" width="140" height="100" alt="Morton School Built 1876"></a>
+	   						<figcaption>Morton School Built 1876</figcaption>
+						</figure>
+						<figure>
+							<a href="images/historical_marker.jpg" target="_blank"><img src="images/historical_marker.jpg" width="140" height="100" alt="Morton's Historical Marker"></a>
+	   						<figcaption>Historical Marker</figcaption>
+						</figure>
+						<figure>
+							<a href="images/historic_morton_ave.jpg" target="_blank"><img src="images/historic_morton_ave.jpg" width="140" height="100" alt="Morton Avenue 1910"></a>
+	   						<figcaption>Morton Avenue 1910</figcaption>
+						</figure>
+						<figure>
+							<a href="images/kendron_me_church.jpg" target="_blank"><img src="images/kendron_me_church.jpg" width="140" height="100" alt="Kendron ME Church"></a>
+	   						<figcaption>Kendron ME Church 1910</figcaption>
+						</figure>
+						<figure>
+							<a href="images/baptist_church.jpg" target="_blank"><img src="images/baptist_church.jpg" width="140" height="100" alt="Baptist Church"></a>
+	   						<figcaption>Baptist Church</figcaption>
+						</figure>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer>
+			<div class="emergency_footer">
+			</div>
+			<ul>
+				<li class="center_item">
+					500 Highland Ave., Morton, PA 19070
+				</li>
+				<li class="footer_phone">
+					<a href="tel:610-543-4565">Phone&#58; 610-543-4565</a>
+				</li>
+				<li class="footer_fax">
+					Fax&#58; 610-543-8392
+				</li>
+				<li class="center_item">
+					<a href="index.html">Home</a>
+				</li>
+			</ul>
+			<br>
+		</footer>
+	</body>
+</html>
+
