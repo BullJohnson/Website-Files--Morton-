@@ -231,6 +231,7 @@ footer 	li 	{	display: inline;
 					font-size: 1.2em;
 					padding-bottom: .75em;
 					padding-top: .75em;
+					clear: both
 }
 nav	ul	ul{	position: absolute;
 			padding: 0;
@@ -331,23 +332,26 @@ section a :hover	{	transform: scale(1.1);}
 						padding-top: 0;
 						font-family: Verdana, sans-serif;
 }
+.ordinance_link:link	{	color: #db592a;}
+.ordinance_link:hover	{	font-size: 110%;}
+
 table, td	{	border: 2.5pt solid #000000;
 }
-table		{	width: 90%;
+table		{	width: 80vw;
 				margin: auto;
-				height: 650px;
+				height: 65vw;
 }
 td			{	font-weight: bold;
 				vertical-align: top;
-				
 }
 th			{	font-weight: bolder;
-				font-size: 2em;
+				font-size: 5vw;
 }
-table 	caption 	{	font-size: 3em;
+table 	caption 	{	font-size: 9vw;
 						font-weight: bold;
 						margin-top: 0;
-}
+} 
+.event_headline 	{	font-size: 8vw;}
 .public		{	background-color: hsla(182,25%,50%,1.00);}
 .office_closed	{	background-color:#bebebe;}
 .community_event	{background-color: #e8e337;}
@@ -355,6 +359,8 @@ table 	caption 	{	font-size: 3em;
 .closed_color	{	background-color: #BEBEBE;}
 .event_color	{	background-color: hsla(58,79%,56%,.50);}
 .display_as_pdf	{	display: none;}
+.footer_phone{display: inline-block;}
+.footer_fax{display: inline-block;}
 
 
 @media (min-width: 600px){
@@ -379,6 +385,18 @@ table 	caption 	{	font-size: 3em;
 						clear: both;
 						text-align: center;
 	}
+	table		{	width: 70vw;
+					margin: auto;
+					height: 55vw;
+	}
+	th			{	font-weight: bolder;
+				font-size: 4vw;
+	}
+	table 	caption 	{	font-size: 8vw;
+						font-weight: bold;
+						margin-top: 0;
+	}
+	.event_headline 	{	font-size: 7vw;}
 	.footer_phone	{	float: left;}
 	.footer_fax		{	float: right;}
 	.agenda_month 	{	margin-left: 20%;
@@ -520,4 +538,17 @@ table 	caption 	{	font-size: 3em;
 						margin-left: 40%
 	}
 	.office_holders	{	font-size: 1.7em;}
+	
+	.event_headline 	{	font-size: 6vw;}
+	table		{	width: 70vw;
+					margin: auto;
+					height: 55vw;
+	}
+	th			{	font-weight: bolder;
+					font-size: 3vw;
+	}
+	table 	caption 	{	font-size: 7vw;
+							font-weight: bold;
+							margin-top: 0;
+	}
 }
