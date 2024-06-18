@@ -277,6 +277,8 @@ header 	a :hover 	{	transform: scale(1.3);}
 aside 	a :hover	{	transform: scale(1.1);}
 section a :hover	{	transform: scale(1.1);}
 
+.forms_heading		{	font-size: 8vw;}
+.permits_heading	{	font-size: 4vw;}
 .forms_flex_column	{	display: flex;
 						justify-content: space-around;
 						flex-wrap: wrap;
@@ -418,6 +420,8 @@ table 	caption 	{	font-size: 9vw;
 						margin-left: 35%
 	}
 	.office_holders	{	font-size: 1.5em;}
+	.forms_heading		{	font-size: 7vw;}
+	.permits_heading	{	font-size: 3.5vw;}
 }
 	
 
@@ -540,6 +544,8 @@ table 	caption 	{	font-size: 9vw;
 	.office_holders	{	font-size: 1.7em;}
 	
 	.event_headline 	{	font-size: 6vw;}
+	.forms_heading		{	font-size: 6vw;}
+	.permits_heading	{	font-size: 3.25vw;}
 	table		{	width: 70vw;
 					margin: auto;
 					height: 55vw;
